@@ -886,6 +886,14 @@
             </e>
           </e>
         </e>
+        <e p="Realistic Hail Set" t="Include">
+          <e p="Demo Scene" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="DemoSceneController.cs" t="Include" />
+            </e>
+          </e>
+          <e p="readme.txt" t="Include" />
+        </e>
         <e p="Script" t="Include">
           <e p="ChangeCharacterSprite.cs" t="Include" />
           <e p="CollisionWithDialog.cs" t="Include" />
