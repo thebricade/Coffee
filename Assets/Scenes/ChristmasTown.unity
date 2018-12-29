@@ -1682,7 +1682,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1172636678028788, guid: 14e439d34e8e1d84ab789e5261f1c3c9, type: 2}
       propertyPath: m_Name
-      value: Cute Things
+      value: World Store
       objectReference: {fileID: 0}
     - target: {fileID: 1172636678028788, guid: 14e439d34e8e1d84ab789e5261f1c3c9, type: 2}
       propertyPath: m_TagString
@@ -1938,7 +1938,7 @@ GameObject:
   - component: {fileID: 957921362}
   - component: {fileID: 957921361}
   m_Layer: 0
-  m_Name: Apple Shop Flowchart
+  m_Name: World Shop Flowchart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1973,7 +1973,7 @@ MonoBehaviour:
   messageTarget: 1
   _message:
     stringRef: {fileID: 0}
-    stringVal: Apple Store
+    stringVal: World Store
   messageOLD: 
 --- !u!114 &957921362
 MonoBehaviour:
@@ -2035,8 +2035,10 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 957921363}
+  selectedCommands:
+  - {fileID: 957921361}
   variables: []
   description: 
   stepPause: 0
@@ -2103,8 +2105,10 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 979149109}
+  selectedCommands:
+  - {fileID: 979149107}
   variables: []
   description: 
   stepPause: 0
@@ -2252,7 +2256,7 @@ GameObject:
   - component: {fileID: 1043712063}
   - component: {fileID: 1043712062}
   m_Layer: 0
-  m_Name: Apple Shop Flowchart
+  m_Name: Toy Shop Flowchart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2287,7 +2291,7 @@ MonoBehaviour:
   messageTarget: 1
   _message:
     stringRef: {fileID: 0}
-    stringVal: Apple Store
+    stringVal: Toy Store
   messageOLD: 
 --- !u!114 &1043712063
 MonoBehaviour:
@@ -2349,8 +2353,10 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1043712064}
+  selectedCommands:
+  - {fileID: 1043712062}
   variables: []
   description: 
   stepPause: 0
@@ -2982,13 +2988,37 @@ GameObject:
   - component: {fileID: 1160879590}
   - component: {fileID: 1160879589}
   - component: {fileID: 1160879588}
-  - component: {fileID: 1160879587}
   - component: {fileID: 1160879583}
-  - component: {fileID: 1160879586}
-  - component: {fileID: 1160879584}
   - component: {fileID: 1160879582}
   - component: {fileID: 1160879585}
   - component: {fileID: 1160879595}
+  - component: {fileID: 1160879584}
+  - component: {fileID: 1160879596}
+  - component: {fileID: 1160879598}
+  - component: {fileID: 1160879597}
+  - component: {fileID: 1160879603}
+  - component: {fileID: 1160879602}
+  - component: {fileID: 1160879601}
+  - component: {fileID: 1160879605}
+  - component: {fileID: 1160879610}
+  - component: {fileID: 1160879608}
+  - component: {fileID: 1160879609}
+  - component: {fileID: 1160879604}
+  - component: {fileID: 1160879607}
+  - component: {fileID: 1160879606}
+  - component: {fileID: 1160879612}
+  - component: {fileID: 1160879611}
+  - component: {fileID: 1160879586}
+  - component: {fileID: 1160879615}
+  - component: {fileID: 1160879614}
+  - component: {fileID: 1160879613}
+  - component: {fileID: 1160879600}
+  - component: {fileID: 1160879599}
+  - component: {fileID: 1160879587}
+  - component: {fileID: 1160879619}
+  - component: {fileID: 1160879618}
+  - component: {fileID: 1160879617}
+  - component: {fileID: 1160879616}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3009,11 +3039,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 397, y: 103}
+  scrollPos: {x: 346.87268, y: 93.48128}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 401
-  zoom: 1
+  zoom: 0.9890001
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3021,9 +3051,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1160879583}
-  selectedCommands:
-  - {fileID: 1160879595}
+  - {fileID: 1160879572}
+  selectedCommands: []
   variables:
   - {fileID: 1160879565}
   description: 
@@ -3173,7 +3202,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 23
     y: 74
-    width: 149
+    width: 150.1011
     height: 40
   tint: {r: 1, g: 0.4117647, b: 0.43529412, a: 1}
   useCustomTint: 1
@@ -3644,7 +3673,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 256
     y: 102
-    width: 141
+    width: 142.01212
     height: 40
   tint: {r: 1, g: 0.4117647, b: 0.43137255, a: 1}
   useCustomTint: 1
@@ -3684,7 +3713,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1160879582
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1160879556}
@@ -3721,8 +3750,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 224
-    y: 192
+    x: 316
+    y: 165
     width: 120
     height: 40
   tint: {r: 0.9843137, g: 1, b: 0.4117647, a: 1}
@@ -3736,6 +3765,7 @@ MonoBehaviour:
   - {fileID: 1160879585}
   - {fileID: 1160879595}
   - {fileID: 1160879584}
+  - {fileID: 1160879596}
 --- !u!114 &1160879584
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3744,28 +3774,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1160879556}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 33
+  itemId: 38
   indentLevel: 0
+  text: 'Heck yes I''ll take it! '
   description: 
-  targetObject: {fileID: 1059216580}
-  targetComponentAssemblyName: CollisionWithDialog, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: CollisionWithDialog
-  targetMethod: turnOnWalk
-  targetMethodText: 'turnOnWalk (): Void'
-  methodParameters: []
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
+  targetBlock: {fileID: 1160879598}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &1160879585
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1160879556}
@@ -3797,25 +3824,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 1160879556}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 32
-  indentLevel: 0
+  nodeRect:
+    serializedVersion: 2
+    x: -108.5
+    y: 343.5
+    width: 151.11223
+    height: 40
+  tint: {r: 0.41176474, g: 0.8631045, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 62
+  blockName: Start World Store
   description: 
-  targetObject: {fileID: 1059216580}
-  targetComponentAssemblyName: CollisionWithDialog, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: CollisionWithDialog
-  targetMethod: turnOnWalk
-  targetMethodText: 'turnOnWalk (): Void'
-  methodParameters: []
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
+  eventHandler: {fileID: 1160879615}
+  commandList:
+  - {fileID: 1160879614}
+  - {fileID: 1160879613}
+  - {fileID: 1160879600}
+  - {fileID: 1160879599}
+  - {fileID: 1160879587}
+  - {fileID: 1160879619}
+  - {fileID: 1160879618}
+  - {fileID: 1160879617}
+  - {fileID: 1160879616}
 --- !u!114 &1160879587
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3824,23 +3857,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1160879556}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 222
-    y: 245
-    width: 120
-    height: 40
-  tint: {r: 0.9843137, g: 1, b: 0.4117647, a: 1}
-  useCustomTint: 1
-  itemId: 30
-  blockName: Top Gift
+  itemId: 73
+  indentLevel: 0
+  storyText: I wanted to get them something so they would know how special they are
+    to me.
   description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 1160879586}
+  character: {fileID: 2024355908}
+  portrait: {fileID: 21300000, guid: a1533d352ffb82540811b96591efbf0e, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1160879588
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3921,7 +3956,7 @@ MonoBehaviour:
   indentLevel: 0
   text: 'Wow! Show me the top gift please! '
   description: 
-  targetBlock: {fileID: 1160879587}
+  targetBlock: {fileID: 1160879583}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -3993,13 +4028,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 18
+    x: 21
     y: 214
-    width: 138
+    width: 138.97876
     height: 40
   tint: {r: 0.98473454, g: 1, b: 0.41176474, a: 1}
   useCustomTint: 1
-  itemId: 2
+  itemId: 37
   blockName: Start Toy Store
   description: 
   eventHandler: {fileID: 1160879590}
@@ -4011,7 +4046,7 @@ MonoBehaviour:
   - {fileID: 1160879591}
 --- !u!114 &1160879595
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1160879556}
@@ -4022,7 +4057,616 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 0
-  storyText: 
+  storyText: 'I have the gift for you! '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1160879596
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160879556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 39
+  indentLevel: 0
+  text: 'I don''t want to impress them, I just want them to know they''re important. '
+  description: 
+  targetBlock: {fileID: 1160879605}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1160879597
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160879556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 43
+  indentLevel: 0
+  storyText: 'Unfortunately, it seems like we just sold our last one. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1160879598
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160879556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 463
+    y: 166
+    width: 120
+    height: 40
+  tint: {r: 0.9843137, g: 1, b: 0.4117647, a: 1}
+  useCustomTint: 1
+  itemId: 42
+  blockName: Take Toy
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1160879597}
+  - {fileID: 1160879602}
+  - {fileID: 1160879601}
+  - {fileID: 1160879603}
+--- !u!114 &1160879599
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160879556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 72
+  indentLevel: 0
+  storyText: 'So, I just feel like I''ve failed them. '
+  description: 
+  character: {fileID: 2024355908}
+  portrait: {fileID: 21300000, guid: a1533d352ffb82540811b96591efbf0e, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1160879600
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160879556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 71
+  indentLevel: 0
+  storyText: and they're the best people I've ever known.
+  description: 
+  character: {fileID: 2024355908}
+  portrait: {fileID: 21300000, guid: a1533d352ffb82540811b96591efbf0e, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1160879601
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160879556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 46
+  indentLevel: 0
+  storyText: There's got to be at least one other store still open!
+  description: 
+  character: {fileID: 2024355908}
+  portrait: {fileID: 21300000, guid: a1533d352ffb82540811b96591efbf0e, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1160879602
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160879556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 45
+  indentLevel: 0
+  storyText: Why did I late till the last minute!!!
+  description: 
+  character: {fileID: 2024355908}
+  portrait: {fileID: 21300000, guid: a1533d352ffb82540811b96591efbf0e, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1160879603
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160879556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 44
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1059216580}
+  targetComponentAssemblyName: CollisionWithDialog, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CollisionWithDialog
+  targetMethod: turnOnWalk
+  targetMethodText: 'turnOnWalk (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1160879604
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160879556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 51
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1059216580}
+  targetComponentAssemblyName: CollisionWithDialog, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CollisionWithDialog
+  targetMethod: turnOnWalk
+  targetMethodText: 'turnOnWalk (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1160879605
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160879556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 391
+    y: 237
+    width: 120
+    height: 40
+  tint: {r: 0.9843137, g: 1, b: 0.4117647, a: 1}
+  useCustomTint: 1
+  itemId: 47
+  blockName: Important
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1160879610}
+  - {fileID: 1160879609}
+  - {fileID: 1160879608}
+  - {fileID: 1160879607}
+  - {fileID: 1160879606}
+  - {fileID: 1160879612}
+  - {fileID: 1160879611}
+  - {fileID: 1160879604}
+--- !u!114 &1160879606
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160879556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 53
+  indentLevel: 0
+  storyText: Happy holidays!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1160879607
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160879556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 52
+  indentLevel: 0
+  storyText: 'We''ve just sold out! '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1160879608
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160879556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 49
+  indentLevel: 0
+  storyText: 'Well, I hope that''s all you need anyway. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1160879609
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160879556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 50
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 3
+  durationOLD: 0
+--- !u!114 &1160879610
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160879556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 48
+  indentLevel: 0
+  storyText: 'If that''s really what you want a nice card may be all you need. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1160879611
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160879556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 55
+  indentLevel: 0
+  storyText: There's got to be at least one other store still open!
+  description: 
+  character: {fileID: 2024355908}
+  portrait: {fileID: 21300000, guid: a1533d352ffb82540811b96591efbf0e, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1160879612
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160879556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 54
+  indentLevel: 0
+  storyText: Why did I late till the last minute!!!
+  description: 
+  character: {fileID: 2024355908}
+  portrait: {fileID: 21300000, guid: a1533d352ffb82540811b96591efbf0e, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1160879613
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160879556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 70
+  indentLevel: 0
+  storyText: I just can't find anything for my friends
+  description: 
+  character: {fileID: 2024355908}
+  portrait: {fileID: 21300000, guid: a1533d352ffb82540811b96591efbf0e, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1160879614
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160879556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 69
+  indentLevel: 0
+  storyText: What's wrong?
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1160879615
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160879556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7d417659cd54a6787f70f763950c34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1160879586}
+  message: World Store
+--- !u!114 &1160879616
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160879556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 77
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1059216580}
+  targetComponentAssemblyName: CollisionWithDialog, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CollisionWithDialog
+  targetMethod: turnOnWalk
+  targetMethodText: 'turnOnWalk (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1160879617
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160879556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 76
+  indentLevel: 0
+  text: 'Give the world to your friends! '
+  description: 
+  targetBlock: {fileID: 0}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1160879618
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160879556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 75
+  indentLevel: 0
+  storyText: 'I do have something perfect for people who mean this much to you. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1160879619
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160879556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 74
+  indentLevel: 0
+  storyText: 'It sounds like these people are very important to you. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5825,7 +6469,7 @@ GameObject:
   - component: {fileID: 1998997373}
   - component: {fileID: 1998997372}
   m_Layer: 0
-  m_Name: Apple Shop Trigger
+  m_Name: World Shop Trigger
   m_TagString: Shop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6388,7 +7032,7 @@ GameObject:
   - component: {fileID: 2137773555}
   - component: {fileID: 2137773554}
   m_Layer: 0
-  m_Name: Apple Shop Trigger
+  m_Name: Toy Shop Trigger
   m_TagString: Shop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
