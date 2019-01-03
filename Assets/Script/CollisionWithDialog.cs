@@ -25,7 +25,7 @@ public class CollisionWithDialog : MonoBehaviour
 	}
 
 
-
+	/*
 	private void OnTriggerEnter(Collider other)
 	{
 		if (other.gameObject.CompareTag("Shop") && hasTalked == false)
@@ -36,11 +36,16 @@ public class CollisionWithDialog : MonoBehaviour
 		}
 		
 		
-	}
+	} */
 
 	public void turnOnWalk()
 	{
 		GetComponent<FirstPersonController>().enabled = true;
-		hasTalked = true;
+		//hasTalked = true;
+	}
+
+	public void turnOffWalk()
+	{
+		GetComponent<FirstPersonController>().enabled = false;
 	}
 }
